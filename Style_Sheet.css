@@ -1,3 +1,12 @@
+﻿.mainBody {
+	background-color: #FF9933;
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	height: 700px;
+	top: 0px;
+}
+
 .spinner {
   margin: 100px auto;
   width: 32px;
@@ -6,15 +15,14 @@
 }
 
 .cube1, .cube2 {
-  background-color: #333;
-  width: 10px;
-  height: 10px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  
-  -webkit-animation: cubemove 1.8s infinite ease-in-out;
-  animation: cubemove 1.8s infinite ease-in-out;
+	background-color: #333;
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	top: 300px;
+	
+	-webkit-animation: cubemove 1.8s infinite ease-in-out;
+	animation: cubemove 1.8s infinite ease-in-out;
 }
 
 .cube2 {
